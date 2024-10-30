@@ -46,6 +46,20 @@ img{
 .plugin{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plugin div{
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.plugin div img{
+  width: 100%;
 }
 
 .btn{
@@ -77,7 +91,7 @@ img{
   height: auto;
   padding: 10px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 0 2px 0;
 }
 
@@ -115,6 +129,10 @@ img{
   .top_heading{
     padding-top: 15px;
     font-size: 45px;
+  }
+
+  .plugin div{
+    width: 350px;
   }
 }
 
